@@ -1,0 +1,6 @@
+*********** Order List (2025_05_06) ***********
+Order ID:   1  StaffName:MR. PRANAV                      Total:$230.00 
+Order ID:   2  StaffName:MR. PRANAV                      Total:$160.00 
+Order ID:   3  StaffName:MR. PRANAV                      Total:$275.00 
+-------------------------------------------------------
+Total sales:$665.0(3)  Canceled:$0.0(0)
