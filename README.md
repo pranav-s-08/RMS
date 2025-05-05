@@ -1,4 +1,4 @@
-Resutaurant Management System (RMS)
+# Resutaurant Management System (RMS)
 Execute
 Double click RMS_GUI.jar
 
