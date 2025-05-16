@@ -1,68 +1,71 @@
-# Resutaurant Management System (RMS)
-Execute
-Double click RMS_GUI.jar
+# 🍽 Restaurant Management System (RMS)
 
-Login
-You can use test data for the first time. You can add new staff when you log in as manager.
+This is a simple desktop application built in Java to help manage restaurant operations. It allows staff and managers to log in, take and edit orders, manage menu items, handle employee data, and track payments. The project uses **Java Swing** for the GUI and stores data in plain text files — no external database is required.
+
+---
+
+## ▶️ How to Run the Application
+
+To run the app, make sure you have Java installed on your system.
+
+1. Place the `RMS_GUI.jar` file and the `dataFiles` folder in the **same directory**.
+2. Open Command Prompt and run the following:
+
+   ```bash
+   cd /d "C:\Users\HP\Desktop\RMS\Restaurant-Management-System-Core-Java-Project-master\Restaurant-Management-System-Core-Java-Project-master"
+   java -jar RMS_GUI.jar
+Alternatively, you can simply double-click on RMS_GUI.jar to launch the application, as long as the dataFiles folder is in the same directory.
+
+🔐 Login Information (Test Users)
+The application includes test login credentials:
 
 Manager
-ID:1000 Password:Java
+
+ID: 1000
+Password: Java
+
 Staff
-ID:1234 Password:1234 (Modifing the data file directly may make problem.)
-Show menu
-You can see all menu items by clicking ALL button, and items in particular categories by clicking Drink, Alcohol, Main, or Dessert button.
+ID: 1234
+Password: 1234
 
-Taking order
-Create new order
-Click "Show menu" button on the left
-Click "New" button to create new order 
-Select adding items by clicking from the menu list on the right side.
-Enter quantity and click "Add" button on the left side.(If quantity is emputy, one item will be added)
-You can delete ordered item from the order detail by clicking "Delete" button
-Edit order
-Click "Show menu" button on the left
-Select the order from the order list to edit
-Click "Edit" button
-You can add, delete ordered items
-Close or Cancel order
-Select the order from the order list
-Click "Close" button or "Cancel" button
-The order closed or canceled can not edit
-Manage Employees (Manager only)
-Add new staff
-Click "Manage Employees" Button on the left
-Click "New" button
-Fill in all information and click OK
-###Edit staff
+🧩 Key Features
+Managers and staff have different access levels:
 
-Click "Manage Employees" Button on the left
-Select a staff from the employees list
-Click "Edit" button
-Fill in all information and click OK
-###Delete staff
+Staff can:
 
-Click "Manage Employees" Button on the left
-Select a staff from the employees list
-Click "Delete" button
-##Manage Menu Items (Manager only) ###Add new item
+Log in and clock in/out
+Create, edit, and cancel customer orders
 
-Click "Manage menu items" Button on the left
-Click "Add new menu item" button
-Fill in all information and click OK
-###Edit menu item
+Managers can:
 
-Click "Manage menu items" Button on the left
-Select a menu item from the menu list
-Click "Edit menu item" button
-Fill in all information and click OK
-###Delete menu item
+Do everything staff can
+Add, edit, and delete menu items
+Manage employee records
+Clock out staff
+View daily payment summaries
 
-Click "Manage menu items" Button on the left
-Select a menu item from the menu list
-Click "Delete menu item" button
-##About payments
+The app allows you to filter menu items by category (Drinks, Main, Dessert, Alcohol) and manage orders using a simple point-and-click interface.
 
-When you log in, the system automaticaly set start working time.
-Clock out button will set finish working time of the person currently logged in.
-Manager can make staff clocked out via manage employees, by selecting staff and clicking Clock out button.
-You can see a payment details for a day by clicking "Show payment" button on the left
+📁 Project Folder Structure
+Make sure your project folder looks like this:
+
+📁 Project Folder
+├── RMS_GUI.jar
+├── dataFiles
+│   ├── staff.txt
+│   ├── orders.txt
+│   └── other data files...
+💡 Running in IntelliJ IDEA
+If you want to run the app through IntelliJ:
+
+Go to Run > Edit Configurations
+
+Set the Working Directory to:
+- C:\Users\HP\Desktop\RMS\Restaurant-Management-System-Core-Java-Project-master\Restaurant-Management-System-Core-Java-Project-master
+This ensures the app can find the dataFiles folder when running from the IDE.
+
+✅ Final Tips
+Always keep the dataFiles folder next to the .jar file.
+Use the app interface to manage all data — do not edit the files manually.
+Java must be properly installed to run the .jar file.
+
