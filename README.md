@@ -57,7 +57,7 @@ Make sure your project folder looks like this:
 │   ├── staff.txt
 │   ├── orders.txt
 │   └── other data files...
-💡 Running in IntelliJ IDEA
+
 If you want to run the app through IntelliJ:
 
 Go to Run > Edit Configurations
