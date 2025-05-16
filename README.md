@@ -22,10 +22,12 @@ The application includes test login credentials:
 Manager
 
 ID: 1000
+
 Password: Java
 
 Staff
 ID: 1234
+
 Password: 1234
 
 🧩 Key Features
